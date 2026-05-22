@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fogo na Bomba//World Cup Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fogo na Bomba - Knockout - World Cup 2026
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:fnb-2026-opening@example.com
+DTSTAMP:20260522T120000Z
+DTSTART:20260611T190000Z
+DTEND:20260611T210000Z
+SUMMARY:Knockout - World Cup 2026 - Opening Match
+DESCRIPTION:Fogo na Bomba Calendar. Replace with final official match details.
+LOCATION:Mexico City, Mexico
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:World Cup match starts in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fnb-2026-final@example.com
+DTSTAMP:20260522T120000Z
+DTSTART:20260719T190000Z
+DTEND:20260719T210000Z
+SUMMARY:Knockout - World Cup 2026 - Final
+DESCRIPTION:Fogo na Bomba Calendar. Replace with final official match details.
+LOCATION:New York/New Jersey, USA
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:World Cup final starts in 1 hour
+END:VALARM
+END:VEVENT
+END:VCALENDAR
